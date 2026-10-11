@@ -1,0 +1,10 @@
+{
+  "name": "demo-api",
+  "type": "module",
+  "scripts": { "start": "node server.js" },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.600.0",
+    "@aws-sdk/client-ssm": "^3.600.0",
+    "express": "^4.19.2"
+  }
+}
